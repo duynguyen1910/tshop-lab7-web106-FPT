@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="01.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/boo
+tstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootst
+rap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #E6E6E6;">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block p-0" style="background-color: #4db779;">
+            <ul class="navbar-nav fw-bold d-lg-flex justify-content-between align-items-center">
+                <div class="d-flex">
+                    <li>
+                        <a class="nav-link active text-white" style="font-size: 14px;" aria-current="page"
+                            href="#">HELP</a>
+                    </li>
+                    <li class="nav-item dropdown d-flex justify-content-between">
+                        <a class="nav-link text-white " style="font-size: 14px;" href="#"><i class="fa fa-phone me-1"
+                                aria-hidden="true"></i>+1-202-555-0151</a>
+                    </li>
+                </div>
+                <div class="d-flex">
+                    <li class="nav-item dropdown d-flex justify-content-between">
+                        <a class="nav-link text-white " style="font-size: 14px;" href="#">MY ACCOUNT</a>
+                    </li>
+                    <li class="nav-item dropdown d-flex justify-content-between">
+                        <a class="nav-link text-white " style="font-size: 14px;" href="#">SIGN IN</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white " style="font-size: 14px;" href="#">CREATE ACCOUNT</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #4ec67f;">
+            <div class="container-fluid text-white">
+                <a class="navbar-brand text-white" href="#">
+                    <h3 class="fw-bold">TSHOP</h3>
+                </a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-white" id="navbarNavDropdown">
+                    <div class="d-flex justify-content-between w-100">
+                        <ul
+                            class="navbar-nav fw-bold d-lg-flex justify-content-lg-between align-items-lg-center w-100 ">
+                            <div class="d-lg-flex">
+                                <li>
+                                    <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+
+                                </li>
+                                <li class="nav-item dropdown d-flex justify-content-between">
+                                    <a class="nav-link text-white dropdown-toggle" href="#">NEW PRODUCT</a>
+
+                                </li>
+                                <li class="nav-item dropdown d-flex justify-content-between">
+                                    <a class="nav-link text-white dropdown-toggle" href="#">SHOP</a>
+
+                                </li>
+                                <li class="nav-item dropdown d-flex justify-content-between">
+                                    <a class="nav-link dropdown-toggle text-white" href="#">PAGES</a>
+
+                                </li>
+                                <li>
+                                    <a class="nav-link text-white" href="#">ALL PAGE LINK</a>
+
+                                </li>
+                            </div>
+                            <li class="nav-item dropdown d-flex justify-content-between">
+                                <a class="nav-link dropdown-toggle text-white me-2" href="#">CART ($210.00)</a>
+                                <a class="nav-link text-white d-none d-lg-block" href="#"><i class="fa fa-search"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav fw-bold d-lg-none">
+                            <li>
+                                <a class="nav-link active text-white" aria-current="page" href="#">HELP</a>
+                            </li>
+                            <li class="nav-item dropdown d-flex justify-content-between">
+                                <a class="nav-link text-white " href="#"><i class="fa fa-phone me-1"
+                                        aria-hidden="true"></i>+1-202-555-0151</a>
+                            </li>
+                            <li class="nav-item dropdown d-flex justify-content-between">
+                                <a class="nav-link text-white " href="#">MY ACCOUNT</a>
+                            </li>
+                            <li class="nav-item dropdown d-flex justify-content-between">
+                                <a class="nav-link text-white " href="#">SIGN IN</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-white " href="#">CREATE ACCOUNT</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-white" href="#"><i class="fa fa-search"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active position-relative">
+                    <img src="https://theme.hstatic.net/1000197303/1001046599/14/slideshow_1.jpg?v=6992"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="z-index: 1;">
+                        <h4>10+ AMAZING COLOR THEME</h4>
+                        <p>Fully responsive bootstrap Ecommerce Template.<br />Available in 10+ color schemes and easy
+                            to set.</p>
+                    </div>
+                    <div class="d-none d-md-block" style=" background-color: rgba(63, 63, 63, 0.7);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;">
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="https://theme.hstatic.net/1000197303/1001046599/14/slideshow_2.jpg?v=6992"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="z-index: 1;">
+                        <h4>10+ AMAZING COLOR THEME</h4>
+                        <p>Fully responsive bootstrap Ecommerce Template.<br />Available in 10+ color schemes and easy
+                            to set.</p>
+                    </div>
+                    <div class="d-none d-md-block" style=" background-color: rgba(63, 63, 63, 0.7);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;">
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="https://theme.hstatic.net/1000197303/1001046599/14/slideshow_3.jpg?v=6992"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="z-index: 1;">
+                        <h4>10+ AMAZING COLOR THEME</h4>
+                        <p>Fully responsive bootstrap Ecommerce Template.<br />Available in 10+ color schemes and easy
+                            to set.</p>
+                    </div>
+                    <div class="d-none d-md-block" style=" background-color: rgba(63, 63, 63, 0.7);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container-fluid mb-5">
+            <h1 class="card-title text-center gray-500 mt-3 mb-3 mt-md-2 mb-md-3 mt-lg-5 mb-lg-5"
+                style="color: #4e4e4e;">
+                NEW ARRIVALS
+            </h1>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 mb-sm-4">
+                    <div class="card p-3 shadow p-3 position-relative">
+                        <img src="./img/204883844-1-navy.webp" class="card-img-top" alt="...">
+                        <div class="mb-4">
+                            <p class="card-title text-center gray-500 mt-2 fw-bold" style="color: #4e4e4e;">ROBORT
+                                PATTISON
+                            </p>
+                            <p class="card-text text-center text-black-50">ersions have evolved over the years,
+                                sometimes by
+                                accident</p>
+                        </div>
+                        <div class="text-center fw-bold mb-2" style="color: #666664;">XL/XXL/S</div>
+                        <div class="text-center fw-bold mb-2" style="color: #4e4e4e;">$25</div>
+                        <button type="button" class="btn text-white fw-bold" style="background-color: #4cc67d;"><i
+                                class="fa fa-shopping-cart me-2" aria-hidden="true"></i>Add to cart</button>
+                        <div class="position-absolute d-flex align-items-center text-white fw-bold"
+                            style="left: 0; top: 230px; height: 10px;">
+                            <h5 class="p-1" style="background-color: #4cc67d;">NEW</h5>
+                            <h5 class="p-1" style="background-color: #e95d58;">15%OFF</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card p-3 shadow p-3 position-relative">
+                        <img src="./img/205056328-1-navy.webp" class="card-img-top" alt="...">
+                        <div class="mb-4">
+                            <p class="card-title text-center gray-500 mt-2 fw-bold" style="color: #4e4e4e;">LUPTATUM
+                                ZZRIL
+                            </p>
+                            <p class="card-text text-center text-black-50">ersions have evolved over the years,
+                                sometimes by
+                                accident</p>
+                        </div>
+                        <div class="text-center fw-bold mb-2" style="color: #666664;">XL/XXL/S</div>
+                        <div class="text-center fw-bold mb-2" style="color: #4e4e4e;">$25</div>
+                        <button type="button" class="btn text-white fw-bold" style="background-color: #4cc67d;"><i
+                                class="fa fa-shopping-cart me-2" aria-hidden="true"></i>Add to cart</button>
+                        <div class="position-absolute d-flex align-items-center text-white fw-bold"
+                            style="left: 0; top: 230px; height: 10px;">
+                            <h5 class="p-1" style="background-color: #e95d58;">15%OFF</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card p-3 shadow p-3 position-relative">
+                        <img src="./img/205136726-1-denimmedium.webp" class="card-img-top" alt="...">
+                        <div class="mb-4">
+                            <p class="card-title text-center gray-500 mt-2 fw-bold" style="color: #4e4e4e;">ELEIFEND
+                                OPTION
+                            </p>
+                            <p class="card-text text-center text-black-50">ersions have evolved over the years,
+                                sometimes by
+                                accident</p>
+                        </div>
+                        <div class="text-center fw-bold mb-2" style="color: #666664;">XL/XXL/S</div>
+                        <div class="text-center fw-bold mb-2" style="color: #4e4e4e;">$25</div>
+                        <button type="button" class="btn text-white fw-bold" style="background-color: #4cc67d;"><i
+                                class="fa fa-shopping-cart me-2" aria-hidden="true"></i>Add to cart</button>
+                        <div class="position-absolute d-flex align-items-center text-white fw-bold"
+                            style="left: 0; top: 230px; height: 10px;">
+                            <h5 class="p-1" style="background-color: #4cc67d;">NEW</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card p-3 shadow p-3 position-relative">
+                        <img src="./img/205190929-2.jpg" class="card-img-top" alt="...">
+                        <div class="mb-4">
+                            <p class="card-title text-center gray-500 mt-2 fw-bold" style="color: #4e4e4e;">MUTATIONEM
+                            </p>
+                            <p class="card-text text-center text-black-50">ersions have evolved over the years,
+                                sometimes by
+                                accident</p>
+                        </div>
+                        <div class="text-center fw-bold mb-2" style="color: #666664;">XL/XXL/S</div>
+                        <div class="text-center fw-bold mb-2" style="color: #4e4e4e;">$25</div>
+                        <button type="button" class="btn text-white fw-bold" style="background-color: #4cc67d;"><i
+                                class="fa fa-shopping-cart me-2" aria-hidden="true"></i>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="position-relative justify-content-center align-middle">
+            <img src="https://images.pexels.com/photos/346751/pexels-photo-346751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="" class="bg-trusted">
+            <div style="z-index: 1; position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+            ">
+                <h1 class="card-title text-center gray-500 mt-5 mb-2 text-white fw-bold">
+                    TRUSTED SELLER 500+
+                </h1>
+                <p class="text-center" style="color: #d9d6d6;">Lorem ipsum dolor sit amet consecteluer</p>
+            </div>
+            <div style=" background-color: rgba(63, 63, 63, 0.7);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;">
+            </div>
+        </div>
+
+        <div>
+            <div class="container border border-1 p-1 text-center text-md-start my-md-3 p-md-2"
+                style="background-color: #f5f5f5;">Home / Category / <span class="text-muted">Cart</span></div>
+            <div class="py-3 px-md-5 d-flex justify-content-between">
+                <div class="fs-2 fw-bold" style="color: #3d3e40;">
+                    <i class="fa fa-shopping-cart me-1" aria-hidden="true"></i>
+                    Shopping cart
+                </div>
+                <button type="button" class="btn text-white d-flex align-items-center" style="font-size: small;">
+                    <i class="fas fa-arrow-left " style="color: #3d3e40"></i>
+                    <p class="d-none d-md-block ms-2 m-0" style="color: #3d3e40">BACK TO SHOPPING</p>
+                </button>
+            </div>
+            <div class="d-xl-flex p-xl-3">
+                <div class="container mb-4">
+                    <div class="row border border-1 py-3 d-none d-md-flex"
+                        style="background-color: #f5f5f5; color: #3d3e40;">
+                        <h6 class="col-md-2 card-title fw-bold">PRODUCT</h6>
+                        <h6 class="col-md-5 card-title fw-bold">DETAILS</h6>
+                        <h6 class="col-md-1 card-title fw-bold">QNT</h6>
+                        <h6 class="col-md-2 card-title fw-bold">DISCOUNT</h6>
+                        <h6 class="col-md-2 card-title fw-bold" style="padding-left: 26px;">TOTAL</h6>
+                    </div>
+                    <div class="row text-muted bg-white">
+                        <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+                            <div class="d-flex align-items-center">
+                                <img class=" col-md-2" src="./img/204883844-1-navy.webp" alt="" width="80">
+                                <div class="col-md-5 w-100">
+                                    <p class="card-title fw-bold mb-3 fs-5">Denim T shirt Black</p>
+                                    <p class="mb-0">12x1.5L</p>
+                                    <p class="fw-bold mb-0" style="color: #3d3e40;">$8.80</p>
+                                </div>
+                            </div>
+                            <i class="fa fa-trash d-none d-md-block col-lg-1 me-3" aria-hidden="true"></i>
+                            <div class="d-flex flex-column flex-md-row align-items-center col-md-1">
+                                <i class="fa fa-minus fa-xs" aria-hidden="true"></i>
+                                <input class="text-center my-2 mx-md-2"
+                                    style="width: 26px; height: 33px; border: 1px solid #dcdcdc" type="text"
+                                    class="form-control" placeholder="2" aria-label="2" aria-describedby="basic-addon1">
+                                <i class="fa fa-plus fa-xs" aria-hidden="true"></i>
+                            </div>
+                            <div class="d-none col-md-2 d-md-block card-title text-center">
+                                0
+                            </div>
+                            <h5 class="d-none col-md-2 d-md-block card-title fw-bold text-center">
+                                $300
+                            </h5>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+                            <div class="d-flex align-items-center">
+                                <img class=" col-md-2" src="./img/205136726-1-denimmedium.webp" alt="" width="80">
+                                <div class="col-md-4 w-100">
+                                    <p class="card-title fw-bold mb-3 fs-5">Denim T shirt Red</p>
+                                    <p class="mb-0">12x1.5L</p>
+                                    <p class="fw-bold mb-0" style="color: #3d3e40;">$8.80</p>
+                                </div>
+                            </div>
+                            <i class="fa fa-trash d-none d-md-block col-lg-1 me-3" aria-hidden="true"></i>
+                            <div class="d-flex flex-column flex-column flex-md-row align-items-center col-md-1">
+                                <i class="fa fa-minus fa-xs" aria-hidden="true"></i>
+                                <input class="text-center my-2 mx-md-2"
+                                    style="width: 26px; height: 33px; border: 1px solid #dcdcdc" type="text"
+                                    class="form-control" placeholder="2" aria-label="2" aria-describedby="basic-addon1">
+                                <i class="fa fa-plus fa-xs" aria-hidden="true"></i>
+                            </div>
+                            <div class="d-none col-md-2 d-md-block card-title text-center">
+                                0
+                            </div>
+                            <h5 class="d-none col-md-2 d-md-block card-title fw-bold text-center">
+                                $300
+                            </h5>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between border-bottom py-3">
+                            <div class="d-flex align-items-center">
+                                <img class=" col-md-2" src="./img/205190929-2.jpg" alt="" width="80">
+                                <div class="col-md-4 w-100">
+                                    <p class="card-title fw-bold mb-3 fs-5">Denim T shirt Blue</p>
+                                    <p class="mb-0">12x1.5L</p>
+                                    <p class="fw-bold mb-0" style="color: #3d3e40;">$8.80</p>
+                                </div>
+                            </div>
+                            <i class="fa fa-trash d-none d-md-block col-lg-1 me-3" aria-hidden="true"></i>
+                            <div class="d-flex flex-column flex-column flex-md-row align-items-center col-md-1">
+                                <i class="fa fa-minus fa-xs" aria-hidden="true"></i>
+                                <input class="text-center my-2 mx-md-2"
+                                    style="width: 26px; height: 33px; border: 1px solid #dcdcdc" type="text"
+                                    class="form-control" placeholder="2" aria-label="2" aria-describedby="basic-addon1">
+                                <i class="fa fa-plus fa-xs" aria-hidden="true"></i>
+                            </div>
+                            <div class="d-none col-md-2 d-md-block card-title text-center">
+                                0
+                            </div>
+                            <h5 class="d-none col-md-2 d-md-block card-title fw-bold text-center">
+                                $300
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between my-3">
+                        <button type="button" class="btn text-white rounded-1 py-1 px-3"
+                            style="background-color: #babfc3; font-size: small;">
+                            <i class="fas fa-arrow-left me-1"></i>
+                            Continue shopping
+                        </button>
+                        <button type="button" class="btn text-white rounded-1 py-1 px-3"
+                            style="background-color: #babfc3; font-size: small;">
+                            <i class="fa fa-refresh me-1"></i>
+                            Update cart
+                        </button>
+                    </div>
+                </div>
+                <div class="mb-4 ms-xl-5">
+                    <button style="background-color: #4cc67d;" type="button"
+                        class="btn text-white rounded-1 p-3 p-sm-2 w-100 fw-bold mb-xl-3"
+                        style="background-color: #babfc3; font-size: small;">
+                        Proceed to checkout
+                        <i class="fas fa-arrow-right ms-1"></i>
+                    </button>
+                    <div id="total"
+                        class="bg-white p-2 p-xl-2 position-fixed bottom-0 bg-white w-100 shadow-lg p-md-3 border border-xl-1">
+                        <div class="border-bottom p-2 d-flex justify-content-between">
+                            <h6 class="text-muted mb-0">Total products</h6>
+                            <h5 class="fw-bold mb-0">$216.51</h5>
+                        </div>
+                        <div class="border-bottom p-2 d-flex justify-content-between">
+                            <h6 class="text-muted mb-0">Shipping</h6>
+                            <h4 class="fw-bold mb-0" style="white-space: nowrap; color: #93a550;">Free shipping!</h4>
+                        </div>
+                        <div class="border-bottom p-2 d-flex justify-content-between">
+                            <h6 class="text-muted mb-0">Total (tax excl.)</h6>
+                            <h5 class="fw-bold mb-0">$216.51</h5>
+                        </div>
+                        <div class="border-bottom p-2 d-flex justify-content-between">
+                            <h6 class="text-muted mb-0">Total tax</h6>
+                            <h5 class="fw-bold mb-0">$0.00</h5>
+                        </div>
+                        <div class="border-bottom p-2 d-flex justify-content-between">
+                            <h6 class="text-muted mb-0">Total</h6>
+                            <h4 class="fw-bold mb-0" style="color: #6eaa83;">$216.51</h4>
+                        </div>
+                        <div class="p-2 d-flex justify-content-between">
+                            <input type="text px-5 py-2" class="form-control rounded-0 rounded-start mb-0"
+                                placeholder="Coupon code" aria-label="Coupon" aria-describedby="button-addon2">
+                            <button class="mb-0 btn text-white py-2 rounded-end rounded-0"
+                                style="background-color: #4cc67d;" type="button" id="button-addon2">Apply!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-white text-muted">
+
+            <section class="">
+                <div class="container text-center text-md-start pt-4">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-3  mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class=" text-uppercase fw-bold pb-3 mb-3 border-bottom">
+                                SUPPORT
+                            </h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur <br />
+                            <p class="fw-bold"><i class="fas fa-phone me-1 text-secondary"></i>+1-202-55500151</p>
+                            </p>
+                            <p><i class="fa fa-envelope me-1" aria-hidden="true"></i>hepl@yourweb.com</p>
+
+                        </div>
+
+                        <div class="col-md-6 col-lg-2  mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold pb-3 mb-3 border-bottom">
+                                SHOP
+                            </h6>
+                            <p>
+                                Men's
+                            </p>
+                            <p>
+                                Women's
+                            </p>
+                            <p>
+                                Kid's
+                            </p>
+                            <p>
+                                Shoes
+                            </p>
+                            <p>
+                                Gift Cards
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-2  mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold pb-3 mb-3 border-bottom">
+                                INFORMATION
+                            </h6>
+                            <p>
+                                Questions?
+                            </p>
+                            <p>
+                                Order Status
+                            </p>
+                            <p>
+                                Sinzing Charts
+                            </p>
+                            <p>
+                                Return Policy
+                            </p>
+                            <p>
+                                Contact Us
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-2  mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold pb-3 mb-3 border-bottom">
+                                MY ACCOUNT
+                            </h6>
+                            <p>
+                                My Account
+                            </p>
+                            <p>
+                                My Address
+                            </p>
+                            <p>
+                                Wish list
+                            </p>
+                            <p>
+                                Order list
+                            </p>
+                            <p>
+                                Order Status
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-3  mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold pb-3 mb-3 border-bottom">
+                                STAY IN TOUCH
+                            </h6>
+                            <input type="text" class="form-control mb-4 text-center" placeholder="Email" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                            <button type="button" class="btn fw-bold text-white mb-4"
+                                style="background-color: #4cc67d; width: 100%;">SUBSCRIBE<i
+                                    class="fas fa-arrow-right ms-1"></i></button>
+                            <div class="d-md-flex justify-content-md-center">
+                                <a style="text-decoration: none;" href="" class="me-4 link-secondary">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a style="text-decoration: none;" href="" class="me-4 link-secondary">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a style="text-decoration: none;" href="" class="me-4 link-secondary">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                                <a style="text-decoration: none;" href="" class="me-4 link-secondary">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a style="text-decoration: none;" href="" class="me-4 link-secondary">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a style="text-decoration: none;" href="" class="me-4 link-secondary">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="d-md-flex align-items-md-center
+             justify-content-md-between text-center p-4 fw-bold" style="background-color: #edeef0">
+                © TSHOP 2014. All right reserved.
+                <div>
+                    <img src="https://banner2.cleanpng.com/20180705/auy/kisspng-visa-debit-card-credit-card-logo-mastercard-supermercado-5b3daa406f9d67.4063706315307679364572.jpg"
+                        alt="" width="46">
+                    <img class="ms-1"
+                        src="https://static.vecteezy.com/system/resources/previews/022/100/701/original/paypal-logo-transparent-free-png.png"
+                        alt="" width="46">
+                    <img class="ms-1"
+                        src="https://mms.businesswire.com/media/20200526005264/en/793783/5/Logo-WMMC-2020.jpg" alt=""
+                        width="46">
+                    <img class="ms-1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtSY2Kz24s2M2FcRaz9PnYzLMBam64o_yNg&usqp=CAU"
+                        alt="" width="46">
+                </div>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+</body>
+
+</html>
